@@ -2,6 +2,7 @@ package com.example.tesatas5;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
@@ -21,5 +22,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void bottonchangeclick(View view) {
         this.textViewmain.setText("Labas");
+    }
+    public void bottonchangecolor (View view)
+    {
+        this.textViewmain.setTextColor(Color.argb(255, 255, 0, 0));
     }
 }
